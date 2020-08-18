@@ -49,7 +49,7 @@ export class ProjectsComponent implements OnInit {
     let hci_final = {
       name: "Human Computer Interaction Final Project",
       tags: ["Adobe XD", "User-Oriented"],
-      description: `Developed a prototype for an web-application which provided college kids a place to find new recipes and connect
+      description: `Developed a prototype for a web-application which provided college kids a place to find new recipes and connect
       with others. This was a semester long project which involved numerous user interviews and tests in order to develop our final 
       product using the Adobe XD software.`
     };
