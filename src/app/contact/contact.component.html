@@ -1,0 +1,21 @@
+<div id="contact-page" class="contact-page">
+   <div class="contact-body">
+      <div class="contact-text">
+         <div class="text-header">
+            <h1>{{ textHeader }}</h1>
+         </div>
+         <div class="text-subheader">
+            <h4>{{ textSubheader }}</h4>
+         </div>
+         <div class="text-resume">
+            <embed loading="lazy" class="resume" src="assets/documents/bm_resume.pdf" type="application/pdf"/>
+         </div>
+      </div>
+      <div class="contact-ways">
+         <div *ngFor="let method of contactMethods" class="contact-method">
+            <fa-icon class="method-icon" [icon]="method.icon"></fa-icon>
+            <h4 class="method-text">{{method.form}}</h4>
+         </div>
+      </div>
+   </div>
+</div>

@@ -1,0 +1,47 @@
+.navbar-header {
+    background-color: white;
+    height: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    position: fixed;
+    z-index: 1;
+}
+
+
+.links-list{
+    width: 33.33%;
+}
+
+.link{
+    font-family: 'Aileron-Light';
+    float: left;
+    padding: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+.link:hover{
+    border-bottom: 1px solid black;
+}
+
+
+.social-media-list{
+    width: 33.33%;
+    text-align: right; 
+}
+
+.social-media{
+    color: black; 
+    padding: 7px;
+}
+
+
+.site-logo{
+    text-align: center;
+    width: 33.33%;
+}
+
+

@@ -1,0 +1,36 @@
+<div id="photos-page" class="photos-page">
+    <div class="photos-wrapper">
+        <div class="photos-text">
+            <div class="text-wrapper">
+                <div class="text-header">
+                    <h1>photography.</h1>
+                </div>
+                <div class="text-subheader">
+                    <h4>{{ photoText1 }}</h4>
+                    <h4>{{ photoText2 }}</h4>
+                    
+                </div>
+            </div>
+            <div class="photos-me-image">
+                <img loading="lazy" [src]="meCameraPic" alt="me holding camera">
+            </div>
+        </div>
+        <div class="photos-gallery">
+            <div class="gallery">
+                <div class="photo-row">
+                    <img *ngFor="let image of myImages1" [src]="image" loading="lazy" alt="image" (click)="zoomImage(image)">
+                </div>
+                <div class="photo-row">
+                    <img *ngFor="let image of myImages2" [src]="image" loading="lazy" alt="image" (click)="zoomImage(image)">
+                </div>
+                <div #zoom id="zoom" class="zoom">
+                    <fa-icon #closeButoon class="exit" [icon]="closeIcon" (click)="closeImage()" ></fa-icon>
+                    <img class="zoom-content" #zoomContent>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>

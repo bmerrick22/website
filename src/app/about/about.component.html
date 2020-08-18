@@ -1,0 +1,20 @@
+<div #aboutPage id="about-page" class="about-page">
+    <div class="main-body">
+        <div class="about-me-text">
+            <h1 class="text-header">{{ textHeader }}</h1>
+            <h4 class="text-subheader">{{ textSubHeader }}</h4>
+            <p class="text-paragraph">{{ textParagraph }}</p>
+        </div>
+        <div class="about-me-image">
+            <div class="image-container">
+                <img class="image-me" [src]="meImage" loading="lazy" alt="about me image">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="skyline-container">
+        <img class="skyline-image" [src]="skyLineImage" alt="skylineImage">
+    </div>
+
+</div>

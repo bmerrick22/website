@@ -1,0 +1,102 @@
+.projects-page{
+    height: 100%;
+    background-image: linear-gradient(to top,  #2F2FA2, #F64C72);
+    display: flex;
+    flex-direction: column;
+    scroll-snap-align: start;
+
+}
+.skyline-reflection{
+    display: flex;
+    align-items: flex-start;
+}
+
+.skyline-image-inverted{
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.project-body{
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    
+}
+
+.other-info{
+    width: 40%;
+    align-self: flex-start;
+
+}
+.other-text{
+    align-self: flex-start;
+    color: white;
+}
+
+.github{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.github-icon{
+    align-self: center;
+    font-size: 7em;
+    cursor: pointer;
+    color: white;
+}
+
+.github-icon:hover{
+    color:white;
+
+}
+.project-section{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.project-list{
+    width: 90%;
+    border-radius: 5%;
+}
+
+
+.project-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ededed;
+}
+
+.project-item:hover{
+    cursor: pointer;
+}
+
+.project-name{
+    width: 50%;
+    font-family: "Aileron-Regular";
+    float:left;
+    text-align: left;
+}
+
+.project-tags{
+    width: 50%;
+    float:right;
+    text-align: right;
+}
+.badge{
+    font-family: "Aileron-Light";
+    margin-left: 8px;
+}
+
+.project-body{
+    font-family: "Aileron-Light";
+}
+
+.text-header{
+    font-family: "Aileron-Bold";
+}

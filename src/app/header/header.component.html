@@ -1,0 +1,16 @@
+<!-- Navbar -->
+<nav class="navbar-header">
+    <div class="links-list">
+        <div *ngFor="let link of linkList" class="link-item">
+            <a  (click)="smoothScroll(link.ref)" class="link" >{{ link.name }}</a>
+        </div>
+    </div>
+    <div class="site-logo">
+        <img [src]="logoLocation" width="75" height="75" alt="site-logo">
+    </div>
+    <div class="social-media-list">
+        <a class="social-media" *ngFor="let socialMedia of socialMediaList" [href]="socialMedia.url">
+            <fa-icon [icon]="socialMedia.icon" size="lg"></fa-icon>
+        </a>
+    </div>
+</nav>

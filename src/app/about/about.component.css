@@ -1,0 +1,66 @@
+.about-page{
+    height: 100%;
+    background-image: linear-gradient(to bottom,  #2F2FA2, #F64C72);
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-body{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    padding-top: 10%;
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 80%;
+}
+
+.about-me-text{
+    color: white;
+    width: 60%;
+    height: 50%;
+}
+
+.text-header{
+    font-family: "Aileron-Bold";
+    color: white;
+}
+
+.text-subheader{
+    font-family: "Aileron-Regular";
+}
+
+.text-paragraph{
+    font-family: "Aileron-Light";
+}
+
+.about-me-image{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.image-container{
+    align-self: center;
+    width: 80%;
+    height: 80%;
+
+}
+
+.image-me{
+    max-width: 80%;
+    border-radius: 20px;
+}
+
+
+.skyline-container{
+    display: flex;
+}
+
+.skyline-image{
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+}

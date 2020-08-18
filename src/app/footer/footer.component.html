@@ -1,0 +1,31 @@
+<div class="footer">
+    <div class="footer-body">
+        <div class="social-media">
+            <div class="social-text">
+                <h5>{{ followMe }}</h5>
+            </div>
+            <div class="icon-list">
+                <div class="icon">
+                    <a class="social-icon" *ngFor="let sm of socialList" [href]="sm.url">
+                        <fa-icon [icon]="sm.icon" size="lg"></fa-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="logo">
+            <img class="logo-alt" [src]="logoSource" alt="logo alt">
+            <div class="logo-text">
+                <h6>{{logoText}}</h6>
+            </div>
+        </div>
+        <div class="updates-comments">
+            <div class="version">
+               <fa-icon [icon]="toolIcon"></fa-icon>
+               <h5>{{ updatesText }}</h5>
+            </div>
+            <div class="comments-text">
+                <h6>{{ commentsText }}</h6>
+            </div>
+        </div>
+    </div>
+</div>

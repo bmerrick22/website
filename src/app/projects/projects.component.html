@@ -1,0 +1,40 @@
+<div id="projects-page" class="projects-page">
+  <div class="skyline-reflection">
+    <img class="skyline-image-inverted" [src]="skyLineImageInverted" alt="skylineImageInverted">
+  </div>
+  <div class="project-body">
+    <div class="other-info">
+      <div class="other-text">
+        <h1 class="text-header">{{ header }}</h1>
+        <h4 class="text-subheader">{{ subHeader }}</h4>
+      </div>
+      <div class="github">
+        <h4>{{ viewMore }}</h4>
+        <a [href]="githubUrl"class="github-icon">
+          <fa-icon [icon]="githubIcon"></fa-icon>
+        </a>
+
+      </div>
+    </div>
+    <div class="project-section">
+      <div class="accordion project-list" id="accordionExample">
+        <div *ngFor="let project of projectList; let idx = index" class="card">
+          <div data-toggle="collapse" [attr.data-target]="'#ID'+idx" class="card-header project-item">
+            <div class="project-name"> {{ project.name }}</div>
+            <div class="project-tags">
+              <span *ngFor="let tag of project.tags" class="badge badge-dark">{{tag}}</span>
+            </div>
+          </div>
+          <div #projectBody [id]="'ID'+idx" class="collapse" data-parent="#accordionExample">
+            <div class="card-body project-body">
+              {{ project.description }}
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>

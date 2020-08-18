@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../src/assets/fonts/css/modules/fonts.css';
+
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(100vh);
+  scroll-snap-type: y mandatory;
+  background-color: black;
+}
+

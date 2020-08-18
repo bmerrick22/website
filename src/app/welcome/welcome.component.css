@@ -1,0 +1,92 @@
+.home-page{
+    height: 100%;
+    background-color: #242582; /* linear-gradient(to left top, #43cea2,#185a9d);*/
+    scroll-snap-align: start;
+}
+
+.home-container{
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+}
+
+.main-text{
+    width: 60%;
+}
+
+.main-image{
+    width: 40%;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+
+.intro{
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-text {
+    font-family: 'Aileron-Heavy';
+    color: white;
+    font-size: 7em;
+}
+
+.intro-meet{
+    cursor: pointer;
+    border: solid 2px transparent;
+    border-radius: 8px;
+    padding: 2%;
+    animation: hide-show;
+    animation-duration: 1s;
+    animation-delay: 5.5s;
+    animation-fill-mode: forwards;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.intro-meet:hover{
+    background-color:#F64C72;
+}
+
+.me-image{
+    height: 90%;
+}
+
+@keyframes hide-show{
+    0% {border-color: transparent;}
+    100% {border-color:white; color: white;}
+}
+
+.typewriter {
+    align-self: center;
+    font-size: 2em;
+    border-right: solid 5px white;
+    white-space: nowrap;
+    overflow: hidden;    
+    font-family: 'Aileron-UltraLight';
+    color: white;
+    margin: 0 auto;
+
+    animation: animated-text 4s steps(29,end) 1s 1 normal both,
+    animated-cursor 1s steps(29,end) infinite;
+  }
+
+
+  
+@keyframes animated-text{
+    from{width: 0;}
+    to{width: 100%;}
+}
+
+@keyframes animated-cursor{
+    0% {border-right-color: white;}
+    50% {border-right-color: transparent;}
+}
+   
+  
