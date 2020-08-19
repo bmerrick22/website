@@ -50,7 +50,7 @@ export class FooterComponent implements OnInit {
     //Create temporary text variables
     let header:string = "follow me.";
     let logo:string = "Desgined and Built by Ben Merrick.";
-    let updates:string = "V1.3";
+    let updates:string = "V1.5";
     let comments:string = "This website is updated based on Angular 9.1.11. Currently not mobile friendly";
     //Assign the temps to bound variables
     this.followMe = header;
