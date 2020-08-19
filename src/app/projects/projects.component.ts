@@ -63,7 +63,7 @@ export class ProjectsComponent implements OnInit {
 
     let personal_website = {
       name: 'Personal Website',
-      tags: ["Angular Framework", "HTML", "CSS", "TypeScript"],
+      tags: ["Angular", "Front-End Development"],
       description: `Designed and built a personal website using the Angular JS framework using predominately self-taught knowledge
       This site is a work in progress as I still have plenty to learn, but it is the first version of a personal project to demonstrate
       my front-end web develpoment skills.`
@@ -83,12 +83,21 @@ export class ProjectsComponent implements OnInit {
       supporting numerous host connections. The site displayed different text, media, and script files for the user to enjoy`
     }
 
+    let gymTracker = {
+      name: "Gym Availability Tracker",
+      tags: ["API", "Web-Scrape", "Python", "Angular"],
+      description: `Constructed a full-stack system to track and notifiy gym slot availibilty for my Univeristy gym. The system scrapes a University
+      site for data, formats data in a custom Python/Flask API hosted in Google App Engine, and retrieves the data for display 
+      in an Angular website.`
+    }
+
     //Add all projects to the array
-    this.projectList.push(systems_final);
-    this.projectList.push(hci_final);
-    this.projectList.push(os_projects);
+    this.projectList.push(gymTracker);
     this.projectList.push(personal_website);
+    this.projectList.push(systems_final);
     this.projectList.push(paradigms_project);
+    this.projectList.push(os_projects);
+      //this.projectList.push(hci_final);
     // this.projectList.push(droid_building);
   }
 
