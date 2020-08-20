@@ -64,7 +64,7 @@ export class ProjectsComponent implements OnInit {
     let personal_website = {
       name: 'Personal Website',
       tags: ["Angular", "Front-End Development"],
-      description: `Designed and built a personal website using the Angular JS framework using predominately self-taught knowledge
+      description: `Designed and built a personal website using the Angular framework using predominately self-taught knowledge
       This site is a work in progress as I still have plenty to learn, but it is the first version of a personal project to demonstrate
       my front-end web develpoment skills.`
     };

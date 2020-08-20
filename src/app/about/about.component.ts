@@ -25,10 +25,10 @@ export class AboutComponent implements OnInit {
     //Create temporary variables with the text
     let text1 = "about me.";
     let text2 = "Computer Science student at Notre Dame interested in Web Development, Cyber Security, and Tech. Consulting.";
-    let text3 = `Hi! My name is Ben and I am currently a senior at the University at Notre Dame. This Fall I will be graduating with
-    a degree in Computer Science and I am very interested in web development, technology consulting and cyber security. 
-    At Notre Dame, I am involved in numerous clubs on campus such as Stuent Interanational Business Council, Hall Government, and Club Lacrosse,
-    and I am very active within my resdience hall. For fun, I love to hang out with friends, play sports, take pictures, and be in the moment! 
+    let text3 = `Hi! My name is Ben and I am a senior at the University at Notre Dame. I will be graduating in Spring 2021 with a degree in Computer Science 
+    and I am very interested in cyber security, drones, web development, and technology consulting. 
+    At Notre Dame I am very involved in clubs and student leadership such as the Student International Business Council, Club Lacrosse, and serving as Hall Vice President.
+     For fun, I love to hang out with friends, play sports, take pictures, and be in the moment! 
     I hope you can learn a bit about me from my website. Enjoy!
     `;
     //Assign the temps over to bound variables
