@@ -10,7 +10,6 @@
     z-index: 1;
 }
 
-
 .links-list{
     width: 33.33%;
 }
@@ -27,7 +26,6 @@
     border-bottom: 1px solid black;
 }
 
-
 .social-media-list{
     width: 33.33%;
     text-align: right; 
@@ -37,7 +35,6 @@
     color: black; 
     padding: 7px;
 }
-
 
 .site-logo{
     text-align: center;

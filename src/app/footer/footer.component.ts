@@ -26,18 +26,15 @@ export class FooterComponent implements OnInit {
     this.buildText();
   }
 
-  ngOnInit(): void {
-
-  }
+  ngOnInit(): void {}
 
   buildIcons(){
    //Create social media icons and their properties
    let instagram = {icon: faInstagram, url: "https://www.instagram.com/benmerrick22/"};
- //  let twitter = {icon: faTwitter, url: "https://github.com/bmerrick22/projects"};
+  //let twitter = {icon: faTwitter, url: "https://github.com/bmerrick22/projects"};
    let facebook = {icon: faFacebook, url: "https://www.facebook.com/ben.merrick.35?ref=bookmarks"};
    let unsplash = {icon: faUnsplash, url: "https://unsplash.com/@bmerrick22"};
    let spotify = {icon: faSpotify, url: "https://open.spotify.com/user/bemur22"};
-
    //Push them onto the social media array
    this.socialList.push(instagram);
    //this.socialList.push(twitter);

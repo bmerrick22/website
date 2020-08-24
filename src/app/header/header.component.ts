@@ -22,8 +22,7 @@ export class HeaderComponent implements OnInit {
     this.buildSocialMedia();
   }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
   buildLinks(){
     //Create naivgation objects with a name and a reference
@@ -36,7 +35,6 @@ export class HeaderComponent implements OnInit {
     this.linkList.push(projects);
     this.linkList.push(photos);
     this.linkList.push(contact);
-
   }
 
   buildSocialMedia(){
