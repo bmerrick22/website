@@ -1,28 +1,11 @@
-# Myweb
+# bmerrick.com
+
+## About
+Hi! My name is Ben and here is the code for the personal website I created. I debveloped this site to display my web development skills, share a bit about myself, and connect with others. You can visit the site at bmerrick.com. Please reach out to me through the contact section if you have any questions or want to chat!
+
+## Project Breakdown
+This site is a front-end application developed using Angular 9 based upon mainly-self taught knowledge. It is hosted through netlify and all code is available, here on my GitHub.
+
+## Deployment Info
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-# website
