@@ -12,16 +12,19 @@
                 </div>
             </div>
             <div class="photos-me-image">
-                <img loading="lazy" [src]="meCameraPic" alt="me holding camera">
+                <!--<img loading="lazy" [src]="meCameraPic" alt="me holding camera">-->
+                <img alt="me holding camera" [defaultImage]="default" [lazyLoad]="meCameraPic">
             </div>
         </div>
         <div class="photos-gallery">
             <div class="gallery">
                 <div class="photo-row">
-                    <img *ngFor="let image of myImages1" [src]="image" loading="lazy" alt="image" (click)="zoomImage(image)">
+                   <!-- <img *ngFor="let image of myImages1" [src]="image" loading="lazy" alt="image" (click)="zoomImage(image)">-->
+                    <img *ngFor="let image of myImages1" alt="image" [defaultImage]="default" [lazyLoad]="image" (click)="zoomImage(image)">
                 </div>
                 <div class="photo-row">
-                    <img *ngFor="let image of myImages2" [src]="image" loading="lazy" alt="image" (click)="zoomImage(image)">
+                    <img *ngFor="let image of myImages2" [defaultImage]="default" [lazyLoad]="image" (click)="zoomImage(image)">
+                    <!--<img *ngFor="let image of myImages2" [src]="image" loading="lazy" alt="image" (click)="zoomImage(image)">-->
                 </div>
                 <div #zoom id="zoom" class="zoom">
                     <fa-icon #closeButoon class="exit" [icon]="closeIcon" (click)="closeImage()" ></fa-icon>

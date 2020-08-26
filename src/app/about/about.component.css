@@ -42,6 +42,14 @@
     width: 40%;
 }
 
+img.ng-lazyloaded { 
+    animation: fadein .5s;
+  }
+  @keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; } 
+}
+
 .image-container{
     align-self: center;
     width: 80%;

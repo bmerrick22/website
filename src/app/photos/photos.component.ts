@@ -22,6 +22,8 @@ export class PhotosComponent implements OnInit {
   @ViewChild("zoomContent") zoomContent: ElementRef;
   //Path for the pic of me holding the camera
   meCameraPic:string = "assets/images/capture-me-2.jpeg";
+  //Default image for lazy loading
+  default:string = "https://www.publicdomainpictures.net/pictures/300000/velka/agate-grey-color.jpg";
 
   constructor() {
     //Create the gallery of images

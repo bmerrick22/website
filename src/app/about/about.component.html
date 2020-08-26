@@ -7,7 +7,8 @@
         </div>
         <div class="about-me-image">
             <div class="image-container">
-                <img class="image-me" [src]="meImage" loading="lazy" alt="about me image">
+                <!--<img class="image-me" [src]="meImage" loading="lazy" alt="about me image">-->
+                <img class="image-me" [defaultImage]="default" [lazyLoad]="meImage">
             </div>
         </div>
     </div>

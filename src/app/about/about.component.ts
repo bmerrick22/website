@@ -14,6 +14,9 @@ export class AboutComponent implements OnInit {
   skyLineImage:string = "assets/images/skyline.png";
   //Image of me
   meImage:string = "assets/images/meForest.jpeg";
+  //Default image for lazy loading
+  default:string = "https://www.publicdomainpictures.net/pictures/300000/velka/agate-grey-color.jpg";
+  
   constructor() {
     //Assign the text bindings
     this.buildHeaders();

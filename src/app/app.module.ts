@@ -11,6 +11,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { PhotosComponent } from './photos/photos.component';
+import { LazyLoadImageModule } from 'ng-lazyload-image';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { PhotosComponent } from './photos/photos.component';
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
+    LazyLoadImageModule
   ],
   providers: [],
   bootstrap: [AppComponent]
