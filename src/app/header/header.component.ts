@@ -40,7 +40,7 @@ export class HeaderComponent implements OnInit {
   buildSocialMedia(){
     //Create social media icons and their properties
     let linkedin = {icon: faLinkedin, url: "https://www.linkedin.com/in/bfmerrick/"};
-    let github = {icon: faGithub, url: "https://github.com/bmerrick22/projects"};
+    let github = {icon: faGithub, url: "https://github.com/bmerrick22"};
     let facebook = {icon: faFacebook, url: "https://www.facebook.com/ben.merrick.35?ref=bookmarks"};
     let unsplash = {icon: faUnsplash, url: "https://unsplash.com/@bmerrick22"};
     let mail = {icon: faEnvelope, url: "mailto:b22merrick@gmail.com"};
